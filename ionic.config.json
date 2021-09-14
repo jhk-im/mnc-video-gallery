@@ -1,0 +1,7 @@
+{
+  "name": "mnc-video-gallery",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
