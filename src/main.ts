@@ -4,6 +4,10 @@ import router from './router';
 
 import { IonicVue } from '@ionic/vue';
 
+import VueVirtualScroller from 'vue3-virtual-scroller'
+import 'vue3-virtual-scroller/dist/vue3-virtual-scroller.css'
+
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
 
@@ -25,7 +29,8 @@ import './theme/variables.css';
 
 const app = createApp(App)
   .use(IonicVue)
-  .use(router);
+  .use(router)
+  .use(VueVirtualScroller)
   
 router.isReady().then(() => {
   app.mount('#app');
