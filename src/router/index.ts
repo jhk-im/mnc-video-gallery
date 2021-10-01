@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import Home from '../views/Home.vue'
+import Home from '../views/Home.vue';
+import ViedoDetatil from '../views/VideoDetail.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -13,8 +14,8 @@ const routes: Array<RouteRecordRaw> = [
     component: Home
   },
   {
-    path: '/message/:id',
-    component: () => import('../views/ViewMessage.vue')
+    path: '/video/:id',
+    component: ViedoDetatil
   }
 ]
 
