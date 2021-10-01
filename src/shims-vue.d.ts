@@ -4,4 +4,6 @@ declare module '*.vue' {
   export default component
 }
 
-declare module 'vue3-virtual-scroller';
+declare module 'video.js';
+declare module 'videojs-contrib-hls';
+declare module 'vue-video-player';

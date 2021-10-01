@@ -23,13 +23,16 @@
     "@ionic/vue-router": "^5.4.0",
     "axios": "^0.21.4",
     "core-js": "^3.6.5",
+    "video.js": "^7.15.4",
+    "videojs-contrib-hls": "^5.15.0",
     "vue": "^3.2.1",
     "vue-router": "^4.0.0-0",
-    "vue3-virtual-scroller": "^0.2.3"
+    "vue-video-player": "^5.0.2"
   },
   "devDependencies": {
     "@capacitor/cli": "3.2.2",
     "@types/jest": "^24.0.19",
+    "@types/video.js": "^7.3.27",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",

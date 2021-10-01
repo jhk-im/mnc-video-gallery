@@ -4,9 +4,6 @@ import router from './router';
 
 import { IonicVue } from '@ionic/vue';
 
-import VueVirtualScroller from 'vue3-virtual-scroller'
-import 'vue3-virtual-scroller/dist/vue3-virtual-scroller.css'
-
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
@@ -27,10 +24,16 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 //import './theme/variables.css';
 
+import hls from 'videojs-contrib-hls';
+import VideoPlayer from 'vue-video-player';
+import "video.js/dist/video-js.css"
+
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router)
-  .use(VueVirtualScroller)
+  .use(hls)
+  .use(VideoPlayer)
   
 router.isReady().then(() => {
   app.mount('#app');
