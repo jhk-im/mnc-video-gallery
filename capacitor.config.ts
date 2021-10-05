@@ -1,10 +1,10 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.plea.mncvideogallery',
   appName: 'mnc-video-gallery',
   webDir: 'dist',
-  bundledWebRuntime: false
+  bundledWebRuntime: true,
 };
 
 export default config;
