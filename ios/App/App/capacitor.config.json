@@ -1,0 +1,6 @@
+{
+	"appId": "com.plea.mncvideogallery",
+	"appName": "mnc-video-gallery",
+	"webDir": "dist",
+	"bundledWebRuntime": true
+}
